@@ -1,6 +1,6 @@
 {
   "name": "react-native-event-horizon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FLUX Architecture using Meteor's Tracker -- React Native",
   "main": "event-horizon/index.js",
   "scripts": {
