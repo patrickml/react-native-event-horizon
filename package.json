@@ -1,0 +1,33 @@
+{
+  "name": "react-native-event-horizon",
+  "version": "1.0.0",
+  "description": "FLUX Architecture using Meteor's Tracker -- React Native",
+  "main": "event-horizon/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/patrickml/react-native-event-horizon.git"
+  },
+  "dependencies": {
+    "react-komposer": "^1.8.0",
+    "trackr": "^2.0.2",
+    "trackr-reactive-var": "^1.4.0"
+  },
+  "keywords": [
+    "tracker",
+    "Meteor",
+    "JS",
+    "React",
+    "Native",
+    "FLUX",
+    "Redux"
+  ],
+  "author": "Patrickml",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickml/react-native-event-horizon/issues"
+  },
+  "homepage": "https://github.com/patrickml/react-native-event-horizon#readme"
+}
