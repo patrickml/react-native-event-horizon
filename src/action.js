@@ -1,4 +1,4 @@
-import EventHorizon from '../event-horizon';
+import EventHorizon from './event-horizon';
 
 export default class Action {
   constructor(store, name, action) {
