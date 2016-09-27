@@ -2,7 +2,7 @@ import ReactiveVar from 'trackr-reactive-var';
 
 export default class Store {
   constructor(name, data = {}) {
-    this.name = name;
+    this._name = name;
     this.reactiveVar = new ReactiveVar(data);
   }
 
@@ -11,7 +11,7 @@ export default class Store {
    * @return {String}   the name of the store
    */
   get name() {
-    return this.name;
+    return this._name;
   }
 
   /**

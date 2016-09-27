@@ -9,4 +9,4 @@ if(global) {
   window.Tracker = Trackr;
 }
 
-export default EventHorizon;
+export default new EventHorizon();
